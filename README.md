@@ -8,6 +8,15 @@ This is a simple Java console application that performs CRUD operations (Create,
 - Delete student records by name
 - View all students
 
+## Project Structure & Files
+
+- **Main.java** - The main class that runs the application and presents the user menu  
+- **InsertStudent.java** - Handles the Create operation  
+- **ViewStudents.java** - Handles the Read operation  
+- **UpdateStudent.java** - Handles the Update operation  
+- **DeleteStudent.java** - Handles the Delete operation  
+- **Student.java** - The Student model/entity class defining id, name, and age attributes  
+
 ## Requirements
 - Java 8 or later
 - MySQL Server
@@ -41,4 +50,37 @@ Connection con = DriverManager.getConnection(
     "your_password"
 );
 ```
+
+### From IDE
+- Locate `Main.java` in your project structure.  
+- Right-click and select **Run 'Main.main()'**.  
+- The application will start and display the following menu in the console:
+
+
+
+---- Menu ----
+1. Insert Student
+2. Update Student Age
+3. Delete Student
+4. View All Students
+5. Exit
+Enter your choice:
+
+## Usage
+- Enter the number corresponding to the desired action (1-5).  
+- Press Enter.  
+- The application will prompt for any required input based on your choice:
+
+For Insert (1): You will be prompted to enter the student's name and age.
+
+For Update (2): You will be asked for the student's name and their new age.
+
+For Delete (3): You will be asked for the name of the student to delete.
+
+For View (4): The application will display a list of all students in the database.
+
+After the operation is complete, the menu will be displayed again until you choose 5. Exit.
+
+
+
 
