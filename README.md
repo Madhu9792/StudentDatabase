@@ -1,4 +1,29 @@
--------Student Database Mini Project-----
+ # Student Database Mini Project
+
+This is a simple Java console application that performs CRUD operations (Create, Read, Update, Delete) on a MySQL student database using JDBC.
+
+## Features
+- Insert new student records
+- Update student age by name
+- Delete student records by name
+- View all students
+
+## Project Structure & Files
+- **Main.java** - The main class that runs the application and presents the user menu  
+- **InsertStudent.java** - Handles the Create operation  
+- **ViewStudents.java** - Handles the Read operation  
+- **UpdateStudent.java** - Handles the Update operation  
+- **DeleteStudent.java** - Handles the Delete operation  
+- **Student.java** - The Student model/entity class defining id, name, and age attributes  
+
+## Requirements
+- Java 8 or later  
+- MySQL Server  
+- JDBC MySQL Connector added to your classpath  
+
+## Database Setup
+Run the following SQL commands in your MySQL console:
+
 
 This is a simple Java console application that performs CRUD operations (Create, Read, Update, Delete) on a MySQL student database using JDBC.
 
