@@ -8,44 +8,17 @@ This is a simple Java console application that performs CRUD operations (Create,
 - Delete student records by name
 - View all students
 
-## Project Structure & Files
-- **Main.java** - The main class that runs the application and presents the user menu  
-- **InsertStudent.java** - Handles the Create operation  
-- **ViewStudents.java** - Handles the Read operation  
-- **UpdateStudent.java** - Handles the Update operation  
-- **DeleteStudent.java** - Handles the Delete operation  
-- **Student.java** - The Student model/entity class defining id, name, and age attributes  
-
 ## Requirements
 - Java 8 or later  
 - MySQL Server  
 - JDBC MySQL Connector added to your classpath  
 
-## Database Setup
-Run the following SQL commands in your MySQL console:
-
-
-This is a simple Java console application that performs CRUD operations (Create, Read, Update, Delete) on a MySQL student database using JDBC.
-
-## Features
-- Insert new student records
-- Update student age by name
-- Delete student records by name
-- View all students
-
 ## Project Structure & Files
-
-- **Main.java** - The main class that runs the application and presents the user menu  
-- **InsertStudent.java** - Handles the Create operation  
-- **ViewStudents.java** - Handles the Read operation  
-- **UpdateStudent.java** - Handles the Update operation  
-- **DeleteStudent.java** - Handles the Delete operation  
-- **Student.java** - The Student model/entity class defining id, name, and age attributes  
-
-## Requirements
-- Java 8 or later
-- MySQL Server
-- JDBC MySQL Connector added to your classpath
+- Student.java - The main class that runs the application and presents the user menu  
+- InsertStudent.java - Handles the Create operation  
+- ViewStudents.java - Handles the Read operation  
+- UpdateStudent.java - Handles the Update operation  
+- DeleteStudent.java - Handles the Delete operation  
 
 ## Database Setup
 Run the following SQL commands in your MySQL console:
@@ -77,11 +50,9 @@ Connection con = DriverManager.getConnection(
 ```
 
 ### From IDE
-- Locate `Main.java` in your project structure.  
-- Right-click and select **Run 'Main.main()'**.  
+- Locate `Student.java` in your project structure.  
+- Right-click and select **Run `Student.java`.  
 - The application will start and display the following menu in the console:
-
-
 
 ---- Menu ----
 1. Insert Student
@@ -104,7 +75,7 @@ For Delete (3): You will be asked for the name of the student to delete.
 
 For View (4): The application will display a list of all students in the database.
 
-After the operation is complete, the menu will be displayed again until you choose 5. Exit.
+After the operation is complete, the menu will be displayed again until you choose (5): Exit.
 
 
 
